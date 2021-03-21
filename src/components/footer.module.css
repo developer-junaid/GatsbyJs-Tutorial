@@ -3,10 +3,13 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background: black;
+  background: rgba(0, 0, 0, 0.87);
   color: white;
   height: 6vh;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 1rem 1.5rem;
 }
