@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import styles from "./layout.module.css";
 
 type LayoutProps = {
