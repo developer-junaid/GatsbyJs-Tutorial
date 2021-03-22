@@ -1,0 +1,21 @@
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.productsContainer > a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  box-shadow: 2px 2px 4px gray, -2px -2px 2px gray;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.productsContainer > a:hover {
+  transform: translateY(-3px);
+}
